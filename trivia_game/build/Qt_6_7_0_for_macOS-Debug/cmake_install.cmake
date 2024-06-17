@@ -1,4 +1,4 @@
-# Install script for directory: /Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/games_creii/trivia_game
+# Install script for directory: /Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,7 +38,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE DIRECTORY FILES "/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/games_creii/trivia_game/build/Qt_6_7_0_for_macOS-Debug/trivia_game.app" USE_SOURCE_PERMISSIONS)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE DIRECTORY FILES "/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/build/Qt_6_7_0_for_macOS-Debug/trivia_game.app" USE_SOURCE_PERMISSIONS)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./trivia_game.app/Contents/MacOS/trivia_game" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./trivia_game.app/Contents/MacOS/trivia_game")
     execute_process(COMMAND /usr/bin/install_name_tool
@@ -56,5 +56,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/games_creii/trivia_game/build/Qt_6_7_0_for_macOS-Debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/build/Qt_6_7_0_for_macOS-Debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

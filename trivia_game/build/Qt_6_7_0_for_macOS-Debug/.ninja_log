@@ -1,0 +1,12 @@
+# ninja log v5
+626	4667	1718637960306594653	CMakeFiles/trivia_game.dir/main.cpp.o	ba352818e6d5e2e
+626	4662	1718637960300530601	CMakeFiles/trivia_game.dir/mainwindow.cpp.o	1c5732a35cc9a482
+4667	5060	1718637960704242566	trivia_game.app/Contents/MacOS/trivia_game	d9b36c96bf1350e8
+0	625	1718637956256098387	/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/build/Qt_6_7_0_for_macOS-Debug/trivia_game_autogen/timestamp	6dbc3621e71a9969
+0	625	1718637956256098387	trivia_game_autogen/mocs_compilation.cpp	6dbc3621e71a9969
+625	4588	1718637960221832208	CMakeFiles/trivia_game.dir/trivia_game_autogen/mocs_compilation.cpp.o	632ee4bcb0a9d701
+0	625	1718637956256098387	/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/build/Qt_6_7_0_for_macOS-Debug/trivia_game_autogen/mocs_compilation.cpp	6dbc3621e71a9969
+0	625	1718637956256098387	trivia_game_autogen/timestamp	6dbc3621e71a9969
+2	66	1718637963163724000	/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/build/Qt_6_7_0_for_macOS-Debug/CMakeFiles/cmake.verify_globs	676ef9bd4e22141c
+66	556	1718637963645016391	build.ninja	aa290da864953e3e
+1	64	0	/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/build/Qt_6_7_0_for_macOS-Debug/CMakeFiles/cmake.verify_globs	676ef9bd4e22141c

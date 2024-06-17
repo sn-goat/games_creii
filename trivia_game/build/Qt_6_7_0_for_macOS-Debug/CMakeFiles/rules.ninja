@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /Users/sergilenyouvop/Qt/Tools/CMake/CMake.app/Contents/bin/cmake --regenerate-during-build -S/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/games_creii/trivia_game -B/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/games_creii/trivia_game/build/Qt_6_7_0_for_macOS-Debug
+  command = /Users/sergilenyouvop/Qt/Tools/CMake/CMake.app/Contents/bin/cmake --regenerate-during-build -S/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game -B/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/build/Qt_6_7_0_for_macOS-Debug
   description = Re-running CMake...
   generator = 1
 
@@ -51,7 +51,7 @@ rule RERUN_CMAKE
 # Rule for re-checking globbed directories.
 
 rule VERIFY_GLOBS
-  command = /Users/sergilenyouvop/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -P /Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/games_creii/trivia_game/build/Qt_6_7_0_for_macOS-Debug/CMakeFiles/VerifyGlobs.cmake
+  command = /Users/sergilenyouvop/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -P /Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/build/Qt_6_7_0_for_macOS-Debug/CMakeFiles/VerifyGlobs.cmake
   description = Re-checking globbed directories...
   generator = 1
 

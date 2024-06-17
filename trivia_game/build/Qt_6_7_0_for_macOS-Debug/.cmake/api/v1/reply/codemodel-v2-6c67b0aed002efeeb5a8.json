@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "trivia_game::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-trivia_game-Debug-9fcb1085789757111e01.json",
+					"jsonFile" : "target-trivia_game-Debug-6c59a23e44f7d0404de0.json",
 					"name" : "trivia_game",
 					"projectIndex" : 0
 				},
@@ -68,8 +68,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/games_creii/trivia_game/build/Qt_6_7_0_for_macOS-Debug",
-		"source" : "/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/games_creii/trivia_game"
+		"build" : "/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/build/Qt_6_7_0_for_macOS-Debug",
+		"source" : "/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game"
 	},
 	"version" : 
 	{

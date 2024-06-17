@@ -1,0 +1,1 @@
+set(__QT_DEPLOY_TARGET_trivia_game_FILE /Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/games_creii/trivia_game/build/Qt_6_7_0_for_macOS-Debug/trivia_game.app/Contents/MacOS/trivia_game)

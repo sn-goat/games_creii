@@ -25,6 +25,10 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(trivia_game
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
+        radiobutton.h radiobutton.cpp
+        answer.h answer.cpp
+        question.h question.cpp
+
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET trivia_game APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

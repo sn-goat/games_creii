@@ -90,6 +90,11 @@
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/wait.h \
+  /Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/answer.h \
+  /Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/question.h \
+  /Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/radiobutton.h \
+  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/QList \
+  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/QString \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/q20functional.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/q20memory.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/q20type_traits.h \
@@ -134,6 +139,7 @@
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/qglobalstatic.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/qhash.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/qhashfunctions.h \
+  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/qiodevice.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/qiodevicebase.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/qiterable.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/qiterator.h \
@@ -201,12 +207,14 @@
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/qtversionchecks.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/qtypeinfo.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/qtypes.h \
+  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/qurl.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/qutf8stringview.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/qvariant.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/qvarlengtharray.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/qversiontagging.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/qxptype_traits.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/qyieldcpu.h \
+  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/Headers/QPixmap \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/Headers/qaction.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/Headers/qbitmap.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/Headers/qbrush.h \
@@ -220,21 +228,37 @@
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/Headers/qkeysequence.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/Headers/qpaintdevice.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/Headers/qpalette.h \
+  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/Headers/qpen.h \
+  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/Headers/qpicture.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/Headers/qpixelformat.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/Headers/qpixmap.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/Headers/qpolygon.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/Headers/qregion.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/Headers/qrgb.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/Headers/qrgba64.h \
+  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/Headers/qtextcursor.h \
+  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/Headers/qtextdocument.h \
+  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/Headers/qtextformat.h \
+  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/Headers/qtextoption.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/Headers/qtgui-config.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/Headers/qtguiexports.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/Headers/qtguiglobal.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/Headers/qtransform.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
+  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QLabel \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow \
+  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QRadioButton \
+  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QTextEdit \
+  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QWidget \
+  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qabstractbutton.h \
+  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qabstractscrollarea.h \
+  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qframe.h \
+  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qlabel.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qmainwindow.h \
+  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qradiobutton.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qtabwidget.h \
+  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qtextedit.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgets-config.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsexports.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsglobal.h \

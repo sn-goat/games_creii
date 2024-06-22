@@ -1,4 +1,5 @@
-trivia_game_autogen/timestamp: \
+/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/build/Qt_6_7_0_for_macOS-Debug/trivia_game_autogen/EWIEGA46WW/moc_answer.cpp: /Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/answer.h \
+  /Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/build/Qt_6_7_0_for_macOS-Debug/trivia_game_autogen/moc_predefs.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h \
@@ -89,22 +90,7 @@ trivia_game_autogen/timestamp: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/wait.h \
-  /Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/CMakeLists.txt \
-  /Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/answer.cpp \
-  /Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/answer.h \
-  .qtc/package-manager/auto-setup.cmake \
-  CMakeFiles/3.27.7/CMakeCXXCompiler.cmake \
-  CMakeFiles/3.27.7/CMakeSystem.cmake \
-  trivia_game_autogen/moc_predefs.h \
-  /Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/main.cpp \
-  /Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/mainwindow.cpp \
-  /Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/mainwindow.h \
-  /Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/mainwindow.ui \
-  /Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/question.cpp \
-  /Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/question.h \
-  /Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/radiobutton.cpp \
   /Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/radiobutton.h \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/QList \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/QString \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/q20functional.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/q20memory.h \
@@ -150,7 +136,6 @@ trivia_game_autogen/timestamp: \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/qglobalstatic.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/qhash.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/qhashfunctions.h \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/qiodevice.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/qiodevicebase.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/qiterable.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/qiterator.h \
@@ -225,7 +210,6 @@ trivia_game_autogen/timestamp: \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/qversiontagging.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/qxptype_traits.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/qyieldcpu.h \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/Headers/QPixmap \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/Headers/qaction.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/Headers/qbitmap.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/Headers/qbrush.h \
@@ -240,7 +224,6 @@ trivia_game_autogen/timestamp: \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/Headers/qpaintdevice.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/Headers/qpalette.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/Headers/qpen.h \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/Headers/qpicture.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/Headers/qpixelformat.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/Headers/qpixmap.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/Headers/qpolygon.h \
@@ -256,230 +239,16 @@ trivia_game_autogen/timestamp: \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/Headers/qtguiglobal.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/Headers/qtransform.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QLabel \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QRadioButton \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QTextEdit \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QWidget \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qabstractbutton.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qabstractscrollarea.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qframe.h \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qlabel.h \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qmainwindow.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qradiobutton.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qtabwidget.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qtextedit.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgets-config.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsexports.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsglobal.h \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qwidget.h \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6/FindWrapAtomic.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6/FindWrapOpenGL.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6/Qt6Config.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6/Qt6ConfigExtras.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6/Qt6ConfigVersion.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6/Qt6Dependencies.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6/Qt6Targets.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6/Qt6VersionlessTargets.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6/QtFeature.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6/QtFeatureCommon.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6/QtPublicAppleHelpers.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6/QtPublicExternalProjectHelpers.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6/QtPublicPluginHelpers.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6/QtPublicTargetHelpers.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6/QtPublicTestHelpers.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6/QtPublicToolHelpers.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6/macos/Info.plist.app.in \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Core/Qt6CoreConfig.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Core/Qt6CoreMacros.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Core/Qt6CorePlugins.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Core/Qt6CoreTargets.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Core/Qt6CoreVersionlessTargets.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginAdditionalTargetInfo.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginConfig.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginDependencies.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginTargets-relwithdebinfo.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginTargets.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginAdditionalTargetInfo.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginConfig.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginDependencies.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginTargets-relwithdebinfo.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginTargets.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginAdditionalTargetInfo.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginConfig.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginDependencies.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginTargets-relwithdebinfo.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginTargets.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginAdditionalTargetInfo.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginConfig.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginDependencies.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginTargets-relwithdebinfo.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginTargets.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginAdditionalTargetInfo.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginConfig.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginDependencies.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginTargets-relwithdebinfo.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginTargets.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginAdditionalTargetInfo.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginConfig.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginDependencies.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginTargets-relwithdebinfo.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginTargets.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Core/QtInstallPaths.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6DBus/Qt6DBusAdditionalTargetInfo.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6DBus/Qt6DBusConfig.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6DBus/Qt6DBusConfigVersion.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6DBus/Qt6DBusConfigVersionImpl.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6DBus/Qt6DBusDependencies.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6DBus/Qt6DBusMacros.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6DBus/Qt6DBusTargets-relwithdebinfo.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6DBus/Qt6DBusTargets.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6DBus/Qt6DBusVersionlessTargets.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsAdditionalTargetInfo.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfig.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersion.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersionImpl.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsDependencies.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets-relwithdebinfo.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsVersionlessTargets.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Gui/Qt6GuiTargets-relwithdebinfo.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Gui/Qt6GuiVersionlessTargets.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginAdditionalTargetInfo.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginConfig.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginTargets-relwithdebinfo.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginTargets.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Gui/Qt6QGifPluginConfig.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Gui/Qt6QGifPluginTargets-relwithdebinfo.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Gui/Qt6QGifPluginTargets.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Gui/Qt6QICOPluginAdditionalTargetInfo.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-relwithdebinfo.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Gui/Qt6QICOPluginTargets.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets-relwithdebinfo.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginConfig.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets-relwithdebinfo.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginAdditionalTargetInfo.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginConfig.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets-relwithdebinfo.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginAdditionalTargetInfo.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginConfig.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets-relwithdebinfo.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginAdditionalTargetInfo.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfig.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets-relwithdebinfo.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsAdditionalTargetInfo.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsConfig.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsConfigVersion.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsConfigVersionImpl.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsDependencies.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsTargets-relwithdebinfo.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsTargets.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsVersionlessTargets.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginAdditionalTargetInfo.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginConfig.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets-relwithdebinfo.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessTargets.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake \
-  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake \
-  /Users/sergilenyouvop/Qt/Tools/CMake/CMake.app/Contents/bin/cmake \
-  /Users/sergilenyouvop/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeCXXInformation.cmake \
-  /Users/sergilenyouvop/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
-  /Users/sergilenyouvop/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake \
-  /Users/sergilenyouvop/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake \
-  /Users/sergilenyouvop/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeGenericSystem.cmake \
-  /Users/sergilenyouvop/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake \
-  /Users/sergilenyouvop/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake \
-  /Users/sergilenyouvop/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeParseArguments.cmake \
-  /Users/sergilenyouvop/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake \
-  /Users/sergilenyouvop/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake \
-  /Users/sergilenyouvop/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake \
-  /Users/sergilenyouvop/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/CheckCXXSourceCompiles.cmake \
-  /Users/sergilenyouvop/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/CheckIncludeFileCXX.cmake \
-  /Users/sergilenyouvop/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/CheckLibraryExists.cmake \
-  /Users/sergilenyouvop/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/Compiler/AppleClang-CXX.cmake \
-  /Users/sergilenyouvop/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
-  /Users/sergilenyouvop/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/Compiler/Clang.cmake \
-  /Users/sergilenyouvop/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/Compiler/GNU.cmake \
-  /Users/sergilenyouvop/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/FindOpenGL.cmake \
-  /Users/sergilenyouvop/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake \
-  /Users/sergilenyouvop/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/FindPackageMessage.cmake \
-  /Users/sergilenyouvop/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/FindThreads.cmake \
-  /Users/sergilenyouvop/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/GNUInstallDirs.cmake \
-  /Users/sergilenyouvop/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake \
-  /Users/sergilenyouvop/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/Internal/CheckFlagCommonConfig.cmake \
-  /Users/sergilenyouvop/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake \
-  /Users/sergilenyouvop/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/MacroAddFileDependencies.cmake \
-  /Users/sergilenyouvop/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/Platform/Apple-AppleClang-CXX.cmake \
-  /Users/sergilenyouvop/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/Platform/Apple-Clang-CXX.cmake \
-  /Users/sergilenyouvop/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/Platform/Apple-Clang.cmake \
-  /Users/sergilenyouvop/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/Platform/Darwin-Initialize.cmake \
-  /Users/sergilenyouvop/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/Platform/Darwin.cmake \
-  /Users/sergilenyouvop/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/Platform/UnixPaths.cmake
+  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qwidget.h

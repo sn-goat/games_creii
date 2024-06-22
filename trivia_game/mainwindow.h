@@ -2,6 +2,9 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include "radiobutton.h"
+#include "answer.h"
+#include "question.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -19,5 +22,15 @@ public:
 
 private:
     Ui::MainWindow *ui;
+
+    Question* question;
+
+    Answer* answer1;
+    Answer* answer2;
+    Answer* answer3;
+    Answer* answer4;
+    Answer* answer5;
+
+
 };
 #endif // MAINWINDOW_H

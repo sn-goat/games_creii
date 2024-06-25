@@ -308,6 +308,12 @@
 			null
 		],
 		[
+			"/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/gamelogic.h",
+			"MU",
+			"EWIEGA46WW/moc_gamelogic.cpp",
+			null
+		],
+		[
 			"/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
@@ -385,6 +391,11 @@
 	[
 		[
 			"/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/answer.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/gamelogic.cpp",
 			"MU",
 			null
 		],

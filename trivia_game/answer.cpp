@@ -5,9 +5,9 @@ int Answer::answerCounter_ = 0;
 Answer::Answer(const QString &text, QWidget* parent) : QTextEdit(text, parent), text_(text), ui_(parent)  {
 
     setReadOnly(true);
-    ++answerCounter_;
 
-    setGeometry(parent->width() * 0.50 - 200, parent->height() * 0.55 + 30*(answerCounter_%5 + 1), 400, 20);
+    setGeometry(parent->width() * 0.50 - 200, parent->height() * 0.60 + 30*(answerCounter_%5), 400, 20);
+    ++answerCounter_;
     setRadioButton();
 }
 
@@ -53,4 +53,8 @@ void Answer::setAllHidden(bool boolean){
         setHidden(false);
         radioButton_->setHidden(false);
     }
+}
+
+RadioButton* Answer::getRadioButton(){
+    return radioButton_;
 }

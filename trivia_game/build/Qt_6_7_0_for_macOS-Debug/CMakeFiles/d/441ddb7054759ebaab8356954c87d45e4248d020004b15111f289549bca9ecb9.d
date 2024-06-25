@@ -96,6 +96,8 @@ trivia_game_autogen/timestamp: \
   CMakeFiles/3.27.7/CMakeCXXCompiler.cmake \
   CMakeFiles/3.27.7/CMakeSystem.cmake \
   trivia_game_autogen/moc_predefs.h \
+  /Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/gamelogic.cpp \
+  /Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/gamelogic.h \
   /Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/main.cpp \
   /Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/mainwindow.cpp \
   /Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/mainwindow.h \
@@ -106,6 +108,7 @@ trivia_game_autogen/timestamp: \
   /Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/radiobutton.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/QList \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/QString \
+  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/QThread \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/q20functional.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/q20memory.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/q20type_traits.h \
@@ -137,7 +140,9 @@ trivia_game_autogen/timestamp: \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/qcontiguouscache.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/qdarwinhelpers.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/qdatastream.h \
+  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/qdeadlinetimer.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/qdebug.h \
+  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/qelapsedtimer.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/qendian.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/qexceptionhandling.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/qflags.h \
@@ -208,6 +213,7 @@ trivia_game_autogen/timestamp: \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/qtdeprecationmarkers.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/qtenvironmentvariables.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/qtextstream.h \
+  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/qthread.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/qtmetamacros.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/qtnoop.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/qtpreprocessorsupport.h \
@@ -258,6 +264,7 @@ trivia_game_autogen/timestamp: \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QLabel \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow \
+  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QPushButton \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QRadioButton \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QTextEdit \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QWidget \
@@ -266,6 +273,7 @@ trivia_game_autogen/timestamp: \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qframe.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qlabel.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qmainwindow.h \
+  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qpushbutton.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qradiobutton.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qtabwidget.h \

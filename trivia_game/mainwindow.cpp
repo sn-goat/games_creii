@@ -7,37 +7,41 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
 
-    question = new Question ("Qui est le boos?", "C", this);
+    setFixedSize(900, 700);
 
-    question->answers.append(new Answer(
-        "A) PAPA?", this));
-    question->answers.append(new Answer(
-        "B) MAMAN?", this));
-    question->answers.append(new Answer(
-        "C) SERGILE!", this));
-    question->answers.append(new Answer(
-        "D) TALA", this));
-    question->answers.append(new Answer(
-        "E) JEMIMA", this));
+    gameLogic = new GameLogic(this);
 
-    question->setAllHidden(true);
+    // question = new Question ("Qui est le boos?", "C", this);
 
-    Question* q = new Question("salut", "E", this);
+    // question->answers.append(new Answer(
+    //     "A) PAPA?", this));
+    // question->answers.append(new Answer(
+    //     "B) MAMAN?", this));
+    // question->answers.append(new Answer(
+    //     "C) SERGILE!", this));
+    // question->answers.append(new Answer(
+    //     "D) TALA", this));
+    // question->answers.append(new Answer(
+    //     "E) JEMIMA", this));
 
-    q->answers.append(new Answer(
-        "A) PAPA?", this));
-    q->answers.append(new Answer(
-        "B) MAMAN?", this));
-    q->answers.append(new Answer(
-        "C) SERGILE!", this));
-    q->answers.append(new Answer(
-        "D) TALA", this));
-    q->answers.append(new Answer(
-        "E) JEMIMA", this));
+    // question->setAllHidden(false);
 
-    q->setAllHidden(true);
+    // Question* q = new Question("salut", "E", this);
 
-    question->setAllHidden(false);
+    // q->answers.append(new Answer(
+    //     "A) PAPA?", this));
+    // q->answers.append(new Answer(
+    //     "B) MAMAN?", this));
+    // q->answers.append(new Answer(
+    //     "C) SERGILE!", this));
+    // q->answers.append(new Answer(
+    //     "D) TALA", this));
+    // q->answers.append(new Answer(
+    //     "E) JEMIMA", this));
+
+    // q->setAllHidden(true);
+
+    // question->setAllHidden(false);
 
 }
 

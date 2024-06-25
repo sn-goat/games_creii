@@ -19,6 +19,8 @@ public:
 
     static int getAnswerCounter();
 
+    RadioButton* getRadioButton();
+
 private:
     QString text_;
 

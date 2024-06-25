@@ -28,6 +28,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         radiobutton.h radiobutton.cpp
         answer.h answer.cpp
         question.h question.cpp
+        gamelogic.h gamelogic.cpp
 
     )
 # Define target properties for Android with Qt 6 as:

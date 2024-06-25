@@ -14,9 +14,9 @@ class Question : public QTextEdit
 {
     Q_OBJECT
 public:
-    explicit Question(const QString& question, QString trueAnswer, QWidget* parent = nullptr);
+    explicit Question(const QString& question, const QString& ImagePath, QString trueAnswer, QWidget* parent = nullptr);
 
-    void setImage();
+    void setImage(const QString& path);
     void setAllHidden(bool boolean);
 
     const QString& getTrueAnswer();

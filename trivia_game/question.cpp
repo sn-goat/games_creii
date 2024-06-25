@@ -1,20 +1,20 @@
 #include "question.h"
 
-Question::Question(const QString& question, QString trueAnswer, QWidget* parent) :
+Question::Question(const QString& question, const QString& path, QString trueAnswer, QWidget* parent) :
     QTextEdit(question, parent),
     question_(question),
     trueAnswer_(trueAnswer),
     ui_(parent)
 {
-    setImage();
+    setImage(path);
 
     setReadOnly(true);
     setGeometry(parent->width() * 0.50 - 300,parent->height()* 0.55,  600, 20);
 }
 
 
-void Question::setImage(){
-    image_ = new QPixmap("/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/images/Flag_of_Cameroon.svg.png");
+void Question::setImage(const QString& path){
+    image_ = new QPixmap(path);
 
     label_ = new QLabel(ui_);
 

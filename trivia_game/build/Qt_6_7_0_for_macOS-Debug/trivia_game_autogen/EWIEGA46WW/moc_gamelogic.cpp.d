@@ -1,4 +1,4 @@
-/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/build/Qt_6_7_0_for_macOS-Debug/trivia_game_autogen/EWIEGA46WW/moc_mainwindow.cpp: /Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/mainwindow.h \
+/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/build/Qt_6_7_0_for_macOS-Debug/trivia_game_autogen/EWIEGA46WW/moc_gamelogic.cpp: /Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/gamelogic.h \
   /Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/build/Qt_6_7_0_for_macOS-Debug/trivia_game_autogen/moc_predefs.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h \
@@ -91,7 +91,6 @@
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/wait.h \
   /Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/answer.h \
-  /Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/gamelogic.h \
   /Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/question.h \
   /Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/radiobutton.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/QList \

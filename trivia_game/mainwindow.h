@@ -5,6 +5,7 @@
 #include "radiobutton.h"
 #include "answer.h"
 #include "question.h"
+#include "gamelogic.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -23,13 +24,15 @@ public:
 private:
     Ui::MainWindow *ui;
 
-    Question* question;
+    GameLogic* gameLogic;
 
-    Answer* answer1;
-    Answer* answer2;
-    Answer* answer3;
-    Answer* answer4;
-    Answer* answer5;
+    // Question* question;
+
+    // Answer* answer1;
+    // Answer* answer2;
+    // Answer* answer3;
+    // Answer* answer4;
+    // Answer* answer5;
 
 
 };

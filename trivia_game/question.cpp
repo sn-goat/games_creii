@@ -9,7 +9,7 @@ Question::Question(const QString& question, const QString& path, QString trueAns
     setImage(path);
 
     setReadOnly(true);
-    setGeometry(parent->width() * 0.50 - 300,parent->height()* 0.55,  600, 20);
+    setGeometry(parent->width() * 0.50 - 300,parent->height()* 0.55,  parent->width()*0.66, parent->height()* 0.030);
 }
 
 
@@ -18,8 +18,8 @@ void Question::setImage(const QString& path){
 
     label_ = new QLabel(ui_);
 
-    label_->setPixmap(image_->scaled(600, 300));
-    label_->setGeometry(ui_->width() * 0.50 -  300, ui_->height() * 0.025, 600, 300);
+    label_->setPixmap(image_->scaled(ui_->width()* 0.65, ui_->height() * 0.50));
+    label_->setGeometry(ui_->width() * 0.50 -  (ui_->width()* 0.65)/2, ui_->height() * 0.025, ui_->width()* 0.65, ui_->height() * 0.50);
 
 }
 

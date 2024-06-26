@@ -26,14 +26,6 @@ private:
 
     GameLogic* gameLogic;
 
-    // Question* question;
-
-    // Answer* answer1;
-    // Answer* answer2;
-    // Answer* answer3;
-    // Answer* answer4;
-    // Answer* answer5;
-
 
 };
 #endif // MAINWINDOW_H

@@ -3,6 +3,9 @@
 GameLogic::GameLogic(QWidget* parent) : QWidget(parent), ui_(parent){
     setQuestions();
     setButtons();
+    setConnections();
+
+    itQuestion = questions_.begin();
 
 
 }
@@ -14,11 +17,11 @@ void GameLogic::setButtons(){
 
     nextPushButton_ = new QPushButton("NEXT", ui_);
     nextPushButton_->setCheckable(true);
-    nextPushButton_->setGeometry(ui_->width() - 150, ui_->height() * 0.90, 125, 30);
+    nextPushButton_->setGeometry(ui_->width() - ui_->width()*0.20, ui_->height() * 0.90, ui_->width()*0.14, 30);
 
-    nextPushButton_ = new QPushButton("PREVIOUS", ui_);
-    nextPushButton_->setCheckable(true);
-    nextPushButton_->setGeometry(ui_->width() - 275, ui_->height() * 0.90, 125, 30);
+    previousPushButton_ = new QPushButton("PREVIOUS", ui_);
+    previousPushButton_->setCheckable(true);
+    previousPushButton_->setGeometry(ui_->width() - ((ui_->width()*0.14) + ui_->width()*0.20) , ui_->height() * 0.90, ui_->width()*0.14, 30);
 }
 
 void GameLogic::setQuestions(){
@@ -49,4 +52,43 @@ void GameLogic::setQuestions(){
         "E) Sainte-Catherine", ui_));
     questions_[1]->setAllHidden(true);
 
+}
+
+void GameLogic::setConnections(){
+    connect(nextPushButton_, SIGNAL (clicked(bool)), this, SLOT (slotNextPushButtonClicked(bool)));
+    connect(previousPushButton_, SIGNAL (clicked(bool)), this, SLOT (slotPreviousPushButtonClicked(bool)));
+}
+
+
+void GameLogic::slotNextPushButtonClicked(bool checked){
+    // QFont font;
+
+
+    if (checked){
+        // font.setWeight(QFont::Bold);
+        // nextPushButton_->setFont(font);
+
+        (*itQuestion)->setAllHidden(true);
+        ++itQuestion;
+        if (itQuestion == questions_.end()){
+            itQuestion = questions_.begin();
+        }
+        (*itQuestion)->setAllHidden(false);
+    }
+    Sleeper::msleep(100);
+    nextPushButton_->setChecked(false);
+}
+
+void GameLogic::slotPreviousPushButtonClicked(bool checked){
+    if (checked){
+        (*itQuestion)->setAllHidden(true);
+        if (itQuestion == questions_.begin()){
+            itQuestion = --(questions_.end());
+        } else{
+            --itQuestion;
+        }
+        (*itQuestion)->setAllHidden(false);
+    }
+    Sleeper::msleep(100);
+    previousPushButton_->setChecked(false);
 }

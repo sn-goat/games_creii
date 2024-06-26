@@ -28,20 +28,23 @@ public:
 
     void setQuestions();
     void setButtons();
+    void setConnections();
 
 signals:
     void endOfQuestionsList();
 
 
 private slots:
-    // void slotNextPushButtonClicked(bool checked);
-    // void slotPreviousPushButtonClicked(bool checked);
+    void slotNextPushButtonClicked(bool checked);
+    void slotPreviousPushButtonClicked(bool checked);
     // void slotRadioButtonClicked(bool ckecked);
 
 
-private:
+public:
 
     QList<Question*> questions_;
+
+    QList<Question*>::iterator itQuestion;
 
     QWidget* ui_;
 

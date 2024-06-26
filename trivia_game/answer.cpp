@@ -6,7 +6,7 @@ Answer::Answer(const QString &text, QWidget* parent) : QTextEdit(text, parent), 
 
     setReadOnly(true);
 
-    setGeometry(parent->width() * 0.50 - 200, parent->height() * 0.60 + 30*(answerCounter_%5), 400, 20);
+    setGeometry(parent->width() * 0.50 - 200, parent->height() * 0.60 + 30*(answerCounter_%5), parent->width() * 0.45, parent->height() * 0.030);
     ++answerCounter_;
     setRadioButton();
 }

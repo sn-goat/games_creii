@@ -6,7 +6,7 @@
 #include <QRadioButton>
 #include <QList>
 #include <QThread>
-#include <QMainWindow>
+#include <QFont>
 
 #include "question.h"
 
@@ -28,6 +28,7 @@ public:
 
     void setQuestions();
     void setButtons();
+    void setRadioButtons();
     void setConnections();
 
 signals:
@@ -37,7 +38,7 @@ signals:
 private slots:
     void slotNextPushButtonClicked(bool checked);
     void slotPreviousPushButtonClicked(bool checked);
-    // void slotRadioButtonClicked(bool ckecked);
+    void slotRadioButtonsClicked(bool checked);
 
 
 public:
@@ -51,6 +52,12 @@ public:
     QList<RadioButton*> radioButtons_;
     QPushButton* nextPushButton_;
     QPushButton* previousPushButton_;
+
+    QFont nextPushButtonFont_;
+
+    bool previousClicked_;
+
+    int goodAnswerCounter_;
 
 };
 

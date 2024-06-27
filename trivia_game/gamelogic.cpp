@@ -1,4 +1,5 @@
 #include "gamelogic.h"
+#include <QDebug>
 
 GameLogic::GameLogic(QWidget* parent) : QWidget(parent), ui_(parent){
     setQuestions();
@@ -9,15 +10,28 @@ GameLogic::GameLogic(QWidget* parent) : QWidget(parent), ui_(parent){
 
 
 }
+void GameLogic::setRadioButtons(){
+    // qDebug() << "SETTING BUTTONS";
+    // qDebug() << (*itQuestion)->getTrueAnswer();
+    if(radioButtons_.isEmpty()){
+        for(auto&& answer : (*itQuestion)->answers){
+            radioButtons_.append(answer->getRadioButton());
+        }
+    } else {
+        radioButtons_.clear();
+        for(auto&& answer : (*itQuestion)->answers){
+            radioButtons_.append(answer->getRadioButton());
+        }
+    }
+}
 
 void GameLogic::setButtons(){
-    for(auto&& answer : questions_[0]->answers){
-        radioButtons_.append(answer->getRadioButton());
-    }
 
     nextPushButton_ = new QPushButton("NEXT", ui_);
     nextPushButton_->setCheckable(true);
     nextPushButton_->setGeometry(ui_->width() - ui_->width()*0.20, ui_->height() * 0.90, ui_->width()*0.14, 30);
+    nextPushButtonFont_.setWeight(QFont::Normal);
+    nextPushButton_->setFont(nextPushButtonFont_);
 
     previousPushButton_ = new QPushButton("PREVIOUS", ui_);
     previousPushButton_->setCheckable(true);
@@ -57,30 +71,62 @@ void GameLogic::setQuestions(){
 void GameLogic::setConnections(){
     connect(nextPushButton_, SIGNAL (clicked(bool)), this, SLOT (slotNextPushButtonClicked(bool)));
     connect(previousPushButton_, SIGNAL (clicked(bool)), this, SLOT (slotPreviousPushButtonClicked(bool)));
+    for(auto&& question: questions_){
+        for(auto&& answer: question->answers){
+            connect(answer->getRadioButton(), SIGNAL (clicked(bool)), this, SLOT (slotRadioButtonsClicked(bool)));
+        }
+    }
+}
+
+void GameLogic::slotRadioButtonsClicked(bool checked){
+    if(checked){
+        nextPushButtonFont_.setWeight(QFont::Bold);
+        nextPushButton_->setFont(nextPushButtonFont_);
+    }
+
 }
 
 
 void GameLogic::slotNextPushButtonClicked(bool checked){
-    // QFont font;
-
+    setRadioButtons();
 
     if (checked){
-        // font.setWeight(QFont::Bold);
-        // nextPushButton_->setFont(font);
-
-        (*itQuestion)->setAllHidden(true);
-        ++itQuestion;
-        if (itQuestion == questions_.end()){
-            itQuestion = questions_.begin();
+        for(auto&& radioButton: radioButtons_){
+            if(radioButton->isChecked()){
+                if(radioButton->getLetter() == (*itQuestion)->getTrueAnswer()){
+                    if(!previousClicked_){
+                        ++goodAnswerCounter_;
+                        qDebug() << goodAnswerCounter_;
+                    }
+                }
+                (*itQuestion)->setAllHidden(true);
+                ++itQuestion;
+                if (itQuestion == questions_.end()){ // This will change soon...
+                    itQuestion = questions_.begin();
+                }
+                (*itQuestion)->setAllHidden(false);
+            }
         }
-        (*itQuestion)->setAllHidden(false);
+
     }
-    Sleeper::msleep(100);
+
+    Sleeper::msleep(50);
     nextPushButton_->setChecked(false);
+    previousClicked_ = false;
+    nextPushButtonFont_.setWeight(QFont::Normal);
+    nextPushButton_->setFont(nextPushButtonFont_);
 }
 
 void GameLogic::slotPreviousPushButtonClicked(bool checked){
     if (checked){
+        for(auto&& radioButton: radioButtons_){
+            if(radioButton->isChecked()){
+                nextPushButtonFont_.setWeight(QFont::Bold);
+                nextPushButton_->setFont(nextPushButtonFont_);
+                break;
+            }
+        }
+        previousClicked_ =  true;
         (*itQuestion)->setAllHidden(true);
         if (itQuestion == questions_.begin()){
             itQuestion = --(questions_.end());
@@ -89,6 +135,6 @@ void GameLogic::slotPreviousPushButtonClicked(bool checked){
         }
         (*itQuestion)->setAllHidden(false);
     }
-    Sleeper::msleep(100);
+    Sleeper::msleep(50);
     previousPushButton_->setChecked(false);
 }

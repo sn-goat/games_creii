@@ -96,6 +96,8 @@ trivia_game_autogen/timestamp: \
 	/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/build/Qt_6_7_0_for_macOS-Debug/CMakeFiles/3.27.7/CMakeCXXCompiler.cmake \
 	/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/build/Qt_6_7_0_for_macOS-Debug/CMakeFiles/3.27.7/CMakeSystem.cmake \
 	/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/build/Qt_6_7_0_for_macOS-Debug/trivia_game_autogen/moc_predefs.h \
+	/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/endui.cpp \
+	/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/endui.h \
 	/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/gamelogic.cpp \
 	/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/gamelogic.h \
 	/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/main.cpp \
@@ -105,6 +107,8 @@ trivia_game_autogen/timestamp: \
 	/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/question.h \
 	/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/radiobutton.cpp \
 	/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/radiobutton.h \
+	/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/startui.cpp \
+	/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/startui.h \
 	/Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/QList \
 	/Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/QString \
 	/Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/QThread \
@@ -231,6 +235,7 @@ trivia_game_autogen/timestamp: \
 	/Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/qxptype_traits.h \
 	/Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/qyieldcpu.h \
 	/Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/Headers/QFont \
+	/Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/Headers/QIcon \
 	/Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/Headers/QPixmap \
 	/Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/Headers/qaction.h \
 	/Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/Headers/qbitmap.h \

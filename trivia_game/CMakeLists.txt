@@ -29,6 +29,8 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         answer.h answer.cpp
         question.h question.cpp
         gamelogic.h gamelogic.cpp
+        endui.h endui.cpp
+        startui.h startui.cpp
 
     )
 # Define target properties for Android with Qt 6 as:

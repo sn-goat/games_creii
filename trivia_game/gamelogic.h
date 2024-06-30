@@ -31,8 +31,15 @@ public:
     void setRadioButtons();
     void setConnections();
 
+    void setAllHidden(bool boolean);
+    void setPushButtonHidden(bool boolean);
+
+    void restart();
+
+    const QString& getScore();
+
 signals:
-    void endOfQuestionsList();
+    void endOfGame();
 
 
 private slots:
@@ -41,7 +48,7 @@ private slots:
     void slotRadioButtonsClicked(bool checked);
 
 
-public:
+private:
 
     QList<Question*> questions_;
 
@@ -57,7 +64,10 @@ public:
 
     bool previousClicked_;
 
+    int counterRB_;
+
     int goodAnswerCounter_;
+
 
 };
 

@@ -91,9 +91,11 @@
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/wait.h \
   /Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/answer.h \
+  /Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/endui.h \
   /Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/gamelogic.h \
   /Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/question.h \
   /Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/radiobutton.h \
+  /Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/startui.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/QList \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/QString \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/QThread \
@@ -220,6 +222,7 @@
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/qxptype_traits.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/qyieldcpu.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/Headers/QFont \
+  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/Headers/QIcon \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/Headers/QPixmap \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/Headers/qaction.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/Headers/qbitmap.h \

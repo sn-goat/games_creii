@@ -1,5 +1,6 @@
 #include "gamelogic.h"
 #include <QDebug>
+#include <QLocale>
 
 GameLogic::GameLogic(QWidget* parent) : QWidget(parent), ui_(parent){
     setQuestions();
@@ -7,6 +8,8 @@ GameLogic::GameLogic(QWidget* parent) : QWidget(parent), ui_(parent){
     setConnections();
 
     itQuestion = questions_.begin();
+
+    setAllHidden(true);
 
 
 }
@@ -66,6 +69,53 @@ void GameLogic::setQuestions(){
         "E) Sainte-Catherine", ui_));
     questions_[1]->setAllHidden(true);
 
+    questions_.append(new Question ("Qui est cool","/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/images/Flag_of_Cameroon.svg.png", "D", ui_));
+    questions_[2]->answers.append(new Answer(
+        "A) PAPA?", ui_));
+    questions_[2]->answers.append(new Answer(
+        "B) MAMAN?", ui_));
+    questions_[2]->answers.append(new Answer(
+        "C) SERGILE!", ui_));
+    questions_[2]->answers.append(new Answer(
+        "D) TALA", ui_));
+    questions_[2]->answers.append(new Answer(
+        "E) JEMIMA", ui_));
+    questions_[2]->setAllHidden(true);
+
+    questions_.append(new Question ("D'où provient cette image?", "/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/images/output-onlinepngtools.png", "C", ui_));
+    questions_[3]->answers.append(new Answer(
+        "A) Montréal", ui_));
+    questions_[3]->answers.append(new Answer(
+        "B) France", ui_));
+    questions_[3]->answers.append(new Answer(
+        "C) Laval", ui_));
+    questions_[3]->answers.append(new Answer(
+        "D) Québec", ui_));
+    questions_[3]->answers.append(new Answer(
+        "E) Sainte-Catherine", ui_));
+    questions_[3]->setAllHidden(true);
+
+}
+
+void GameLogic::setPushButtonHidden(bool boolean){
+    nextPushButton_->setHidden(boolean);
+    previousPushButton_->setHidden(boolean);
+}
+
+
+void GameLogic::setAllHidden(bool boolean){
+    (*itQuestion)->setAllHidden(boolean);
+    setPushButtonHidden(boolean);
+    // qDebug() << "oui";
+
+}
+
+
+const QString& GameLogic::getScore(){
+    static QString str;
+
+    return str.setNum((double(goodAnswerCounter_)/double(questions_.size())) * 100.00);
+
 }
 
 void GameLogic::setConnections(){
@@ -76,6 +126,7 @@ void GameLogic::setConnections(){
             connect(answer->getRadioButton(), SIGNAL (clicked(bool)), this, SLOT (slotRadioButtonsClicked(bool)));
         }
     }
+
 }
 
 void GameLogic::slotRadioButtonsClicked(bool checked){
@@ -96,15 +147,17 @@ void GameLogic::slotNextPushButtonClicked(bool checked){
                 if(radioButton->getLetter() == (*itQuestion)->getTrueAnswer()){
                     if(!previousClicked_){
                         ++goodAnswerCounter_;
-                        qDebug() << goodAnswerCounter_;
+                        // qDebug() << goodAnswerCounter_;
                     }
                 }
                 (*itQuestion)->setAllHidden(true);
                 ++itQuestion;
-                if (itQuestion == questions_.end()){ // This will change soon...
-                    itQuestion = questions_.begin();
+                if (itQuestion == questions_.end()){
+                    // qDebug() << "Score of the game: " << getScore();
+                    emit endOfGame();
+                } else {
+                    (*itQuestion)->setAllHidden(false);
                 }
-                (*itQuestion)->setAllHidden(false);
             }
         }
 
@@ -121,20 +174,29 @@ void GameLogic::slotPreviousPushButtonClicked(bool checked){
     if (checked){
         for(auto&& radioButton: radioButtons_){
             if(radioButton->isChecked()){
+                ++counterRB_;
                 nextPushButtonFont_.setWeight(QFont::Bold);
                 nextPushButton_->setFont(nextPushButtonFont_);
                 break;
             }
         }
-        previousClicked_ =  true;
-        (*itQuestion)->setAllHidden(true);
-        if (itQuestion == questions_.begin()){
-            itQuestion = --(questions_.end());
-        } else{
-            --itQuestion;
+        if (counterRB_ > 0){
+            previousClicked_ =  true;
+            (*itQuestion)->setAllHidden(true);
+            if (itQuestion != questions_.begin()){
+                --itQuestion;
+            }
+            (*itQuestion)->setAllHidden(false);
         }
-        (*itQuestion)->setAllHidden(false);
     }
+    counterRB_ = 0;
     Sleeper::msleep(50);
     previousPushButton_->setChecked(false);
+}
+
+void GameLogic::restart(){
+    itQuestion = questions_.begin();
+    counterRB_ = 0;
+    goodAnswerCounter_ = 0;
+    setAllHidden(false);
 }

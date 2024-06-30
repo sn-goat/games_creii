@@ -308,6 +308,12 @@
 			null
 		],
 		[
+			"/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/endui.h",
+			"MU",
+			"EWIEGA46WW/moc_endui.cpp",
+			null
+		],
+		[
 			"/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/gamelogic.h",
 			"MU",
 			"EWIEGA46WW/moc_gamelogic.cpp",
@@ -329,6 +335,12 @@
 			"/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/radiobutton.h",
 			"MU",
 			"EWIEGA46WW/moc_radiobutton.cpp",
+			null
+		],
+		[
+			"/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/startui.h",
+			"MU",
+			"EWIEGA46WW/moc_startui.cpp",
 			null
 		]
 	],
@@ -395,6 +407,11 @@
 			null
 		],
 		[
+			"/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/endui.cpp",
+			"MU",
+			null
+		],
+		[
 			"/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/gamelogic.cpp",
 			"MU",
 			null
@@ -416,6 +433,11 @@
 		],
 		[
 			"/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/radiobutton.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/startui.cpp",
 			"MU",
 			null
 		]

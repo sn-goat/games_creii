@@ -105,6 +105,22 @@ build CMakeFiles/trivia_game.dir/gamelogic.cpp.o: CXX_COMPILER__trivia_game_unsc
   OBJECT_DIR = CMakeFiles/trivia_game.dir
   OBJECT_FILE_DIR = CMakeFiles/trivia_game.dir
 
+build CMakeFiles/trivia_game.dir/endui.cpp.o: CXX_COMPILER__trivia_game_unscanned_Debug /Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/endui.cpp || cmake_object_order_depends_target_trivia_game
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/trivia_game.dir/endui.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/build/Qt_6_7_0_for_macOS-Debug/trivia_game_autogen/include -isystem /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Headers -iframework /Users/sergilenyouvop/Qt/6.7.0/macos/lib -isystem /Users/sergilenyouvop/Qt/6.7.0/macos/mkspecs/macx-clang -isystem /Users/sergilenyouvop/Qt/6.7.0/macos/include -isystem /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Headers -isystem /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtGui.framework/Headers
+  OBJECT_DIR = CMakeFiles/trivia_game.dir
+  OBJECT_FILE_DIR = CMakeFiles/trivia_game.dir
+
+build CMakeFiles/trivia_game.dir/startui.cpp.o: CXX_COMPILER__trivia_game_unscanned_Debug /Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/startui.cpp || cmake_object_order_depends_target_trivia_game
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/trivia_game.dir/startui.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/build/Qt_6_7_0_for_macOS-Debug/trivia_game_autogen/include -isystem /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Headers -iframework /Users/sergilenyouvop/Qt/6.7.0/macos/lib -isystem /Users/sergilenyouvop/Qt/6.7.0/macos/mkspecs/macx-clang -isystem /Users/sergilenyouvop/Qt/6.7.0/macos/include -isystem /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Headers -isystem /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtGui.framework/Headers
+  OBJECT_DIR = CMakeFiles/trivia_game.dir
+  OBJECT_FILE_DIR = CMakeFiles/trivia_game.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target trivia_game
@@ -113,7 +129,7 @@ build CMakeFiles/trivia_game.dir/gamelogic.cpp.o: CXX_COMPILER__trivia_game_unsc
 #############################################
 # Link the executable trivia_game.app/Contents/MacOS/trivia_game
 
-build trivia_game.app/Contents/MacOS/trivia_game: CXX_EXECUTABLE_LINKER__trivia_game_Debug CMakeFiles/trivia_game.dir/trivia_game_autogen/mocs_compilation.cpp.o CMakeFiles/trivia_game.dir/main.cpp.o CMakeFiles/trivia_game.dir/mainwindow.cpp.o CMakeFiles/trivia_game.dir/radiobutton.cpp.o CMakeFiles/trivia_game.dir/answer.cpp.o CMakeFiles/trivia_game.dir/question.cpp.o CMakeFiles/trivia_game.dir/gamelogic.cpp.o | /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/QtWidgets /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/QtGui /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/QtCore || trivia_game_autogen trivia_game_autogen_timestamp_deps
+build trivia_game.app/Contents/MacOS/trivia_game: CXX_EXECUTABLE_LINKER__trivia_game_Debug CMakeFiles/trivia_game.dir/trivia_game_autogen/mocs_compilation.cpp.o CMakeFiles/trivia_game.dir/main.cpp.o CMakeFiles/trivia_game.dir/mainwindow.cpp.o CMakeFiles/trivia_game.dir/radiobutton.cpp.o CMakeFiles/trivia_game.dir/answer.cpp.o CMakeFiles/trivia_game.dir/question.cpp.o CMakeFiles/trivia_game.dir/gamelogic.cpp.o CMakeFiles/trivia_game.dir/endui.cpp.o CMakeFiles/trivia_game.dir/startui.cpp.o | /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/QtWidgets /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/QtGui /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/QtCore || trivia_game_autogen trivia_game_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk
   LINK_LIBRARIES = -Wl,-rpath,/Users/sergilenyouvop/Qt/6.7.0/macos/lib  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/QtWidgets  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/QtGui  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/QtCore  -framework IOKit  -framework DiskArbitration  -Xlinker -framework -Xlinker OpenGL  -Xlinker -framework -Xlinker AGL  -framework AppKit  -framework ImageIO  -framework Metal
   LINK_PATH = -iframework /Users/sergilenyouvop/Qt/6.7.0/macos/lib
@@ -215,7 +231,7 @@ build trivia_game_autogen/timestamp trivia_game_autogen/mocs_compilation.cpp | $
 #############################################
 # Phony custom command for CMakeFiles/trivia_game_autogen_timestamp_deps
 
-build CMakeFiles/trivia_game_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/trivia_game_autogen_timestamp_deps: phony /Users/sergilenyouvop/Qt/6.7.0/macos/./libexec/moc /Users/sergilenyouvop/Qt/6.7.0/macos/./libexec/uic /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/QtCore /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/QtWidgets
+build CMakeFiles/trivia_game_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/trivia_game_autogen_timestamp_deps: phony /Users/sergilenyouvop/Qt/6.7.0/macos/./libexec/uic /Users/sergilenyouvop/Qt/6.7.0/macos/./libexec/moc /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/QtCore /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/QtWidgets
 
 
 #############################################

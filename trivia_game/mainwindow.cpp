@@ -3,13 +3,10 @@
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
-    , ui(new Ui::MainWindow), image("/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/images/Question_Mark_Logo_2021_September.png")
+    , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    icon = QIcon(image);
-
     setFixedSize(900, 700);
-
     setWindowTitle("Trivia Game");
 
 

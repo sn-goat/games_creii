@@ -90,3 +90,11 @@
 7075	44622	1719718321255991209	CMakeFiles/trivia_game.dir/trivia_game_autogen/mocs_compilation.cpp.o	632ee4bcb0a9d701
 7085	44943	1719718321581820080	CMakeFiles/trivia_game.dir/gamelogic.cpp.o	9d2d0a643a3be7bd
 44944	47293	1719718323925265800	trivia_game.app/Contents/MacOS/trivia_game	f3e18d452a9729ae
+28	1790	1719719165107615000	trivia_game_autogen/timestamp	6dbc3621e71a9969
+28	1790	1719719165107615000	trivia_game_autogen/mocs_compilation.cpp	6dbc3621e71a9969
+28	1790	1719719165107615000	/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/build/Qt_6_7_0_for_macOS-Debug/trivia_game_autogen/timestamp	6dbc3621e71a9969
+28	1790	1719719165107615000	/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/build/Qt_6_7_0_for_macOS-Debug/trivia_game_autogen/mocs_compilation.cpp	6dbc3621e71a9969
+1792	11760	1719719175089892562	CMakeFiles/trivia_game.dir/main.cpp.o	ba352818e6d5e2e
+1793	11815	1719719175148490934	CMakeFiles/trivia_game.dir/mainwindow.cpp.o	1c5732a35cc9a482
+1791	12122	1719719175469517441	CMakeFiles/trivia_game.dir/trivia_game_autogen/mocs_compilation.cpp.o	632ee4bcb0a9d701
+12123	13225	1719719176587687288	trivia_game.app/Contents/MacOS/trivia_game	f3e18d452a9729ae

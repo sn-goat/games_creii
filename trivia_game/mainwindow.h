@@ -2,7 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include <QIcon>
+
 #include "radiobutton.h"
 #include "answer.h"
 #include "question.h"
@@ -33,10 +33,6 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
-
-
-    QPixmap image;
-    QIcon icon;
 
     StartUi* startUi;
     EndUI* endUI;

@@ -14,8 +14,6 @@ GameLogic::GameLogic(QWidget* parent) : QWidget(parent), ui_(parent){
 
 }
 void GameLogic::setRadioButtons(){
-    // qDebug() << "SETTING BUTTONS";
-    // qDebug() << (*itQuestion)->getTrueAnswer();
     if(radioButtons_.isEmpty()){
         for(auto&& answer : (*itQuestion)->answers){
             radioButtons_.append(answer->getRadioButton());
@@ -42,19 +40,18 @@ void GameLogic::setButtons(){
 }
 
 void GameLogic::setQuestions(){
-    questions_.append(new Question ("Qui est le boos?","/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/images/Flag_of_Cameroon.svg.png", "C", ui_));
+    questions_.append(new Question ("Quel est ce pays?","/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/images/Flag_of_Cameroon.svg.png", "C", ui_));
     questions_[0]->answers.append(new Answer(
-        "A) PAPA?", ui_));
+        "A) Allemagne", ui_));
     questions_[0]->answers.append(new Answer(
-        "B) MAMAN?", ui_));
+        "B) Congo", ui_));
     questions_[0]->answers.append(new Answer(
-        "C) SERGILE!", ui_));
+        "C) Cameroune", ui_));
         questions_[0]->answers.append(new Answer(
-                "D) TALA", ui_));
+                "D) Ghana", ui_));
     questions_[0]->answers.append(new Answer(
-        "E) JEMIMA", ui_));
+        "E) Kenya", ui_));
     questions_[0]->setAllHidden(false);
-
 
     questions_.append(new Question ("D'où vient cette image?", "/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/images/output-onlinepngtools.png", "A", ui_));
     questions_[1]->answers.append(new Answer(
@@ -69,31 +66,110 @@ void GameLogic::setQuestions(){
         "E) Sainte-Catherine", ui_));
     questions_[1]->setAllHidden(true);
 
-    questions_.append(new Question ("Qui est cool","/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/images/Flag_of_Cameroon.svg.png", "D", ui_));
+    questions_.append(new Question ("Dans quel cas l'algorithme de recherche binaire est-il le plus efficace?","/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/images/download.png", "B", ui_));
     questions_[2]->answers.append(new Answer(
-        "A) PAPA?", ui_));
+        "A) Lorsque la liste est non triée.", ui_));
     questions_[2]->answers.append(new Answer(
-        "B) MAMAN?", ui_));
+        "B) Lorsque la liste est triée en ordre croissant ou décroissant.", ui_));
     questions_[2]->answers.append(new Answer(
-        "C) SERGILE!", ui_));
+        "C) Lorsque la liste contient des éléments en double.", ui_));
     questions_[2]->answers.append(new Answer(
-        "D) TALA", ui_));
+        "D) Lorsque la liste est vide.", ui_));
     questions_[2]->answers.append(new Answer(
-        "E) JEMIMA", ui_));
+        "E) Toutes ces réponses.", ui_));
     questions_[2]->setAllHidden(true);
 
-    questions_.append(new Question ("D'où provient cette image?", "/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/images/output-onlinepngtools.png", "C", ui_));
+    questions_.append(new Question ("Quel est cette province?", "/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/images/Flag_of_Quebec.svg", "D", ui_));
     questions_[3]->answers.append(new Answer(
-        "A) Montréal", ui_));
+        "A) Alberta", ui_));
     questions_[3]->answers.append(new Answer(
-        "B) France", ui_));
+        "B) Manitoba", ui_));
     questions_[3]->answers.append(new Answer(
-        "C) Laval", ui_));
+        "C) Ontario", ui_));
     questions_[3]->answers.append(new Answer(
         "D) Québec", ui_));
     questions_[3]->answers.append(new Answer(
-        "E) Sainte-Catherine", ui_));
+        "E) saskatchewan", ui_));
     questions_[3]->setAllHidden(true);
+
+    questions_.append(new Question ("De quoi sont fait les champions?","/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/images/hi-res-160623023_crop_north.jpg", "E", ui_));
+    questions_[4]->answers.append(new Answer(
+        "A) D'un désir", ui_));
+    questions_[4]->answers.append(new Answer(
+        "B) D'une vision", ui_));
+    questions_[4]->answers.append(new Answer(
+        "C) D'un rêve", ui_));
+    questions_[4]->answers.append(new Answer(
+        "D) D'une passion", ui_));
+    questions_[4]->answers.append(new Answer(
+        "E) Toutes ces réponses", ui_));
+    questions_[4]->setAllHidden(true);
+
+
+    questions_.append(new Question ("Quel est cette équipe?","/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/images/image.jpg", "D", ui_));
+    questions_[5]->answers.append(new Answer(
+        "A) Toronto Argonauts", ui_));
+    questions_[5]->answers.append(new Answer(
+        "B) Edmonton Elks", ui_));
+    questions_[5]->answers.append(new Answer(
+        "C) Ottawa Rouge et Noir", ui_));
+    questions_[5]->answers.append(new Answer(
+        "D) Montréal Alouette", ui_));
+    questions_[5]->answers.append(new Answer(
+        "E) Calgary Stampeders", ui_));
+    questions_[5]->setAllHidden(true);
+
+    questions_.append(new Question ("Quel est le rôle principal du CPU dans un ordinateur?","/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/images/pexels-andrey-matveev-5766819-1024x683.jpg", "B", ui_));
+    questions_[6]->answers.append(new Answer(
+        "A) Stocker les données et les programmes.", ui_));
+    questions_[6]->answers.append(new Answer(
+        "B) Exécuter les instructions des programmes.", ui_));
+    questions_[6]->answers.append(new Answer(
+        "C) Gérer les périphériques d'entrée et de sortie.", ui_));
+    questions_[6]->answers.append(new Answer(
+        "D) Maintenir l'alimentation électrique de l'ordinateur.", ui_));
+    questions_[6]->answers.append(new Answer(
+        "E) Contrôler la connectivité réseau.", ui_));
+    questions_[6]->setAllHidden(true);
+
+    questions_.append(new Question ("Quel est l'ordre correct des planètes dans le système solaire en partant du Soleil?","/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/images/Solar_System_true_color.jpg", "C", ui_));
+    questions_[7]->answers.append(new Answer(
+        "A) Vénus, Mars, Terre, Mercure, Jupiter, Saturne, Uranus, Neptune.", ui_));
+    questions_[7]->answers.append(new Answer(
+        "B) Mercure, Jupiter, Vénus, Terre, Mars, Uranus, Saturne, Neptune.", ui_));
+    questions_[7]->answers.append(new Answer(
+        "C) Mercure, Vénus, Terre, Mars, Jupiter, Saturne, Uranus, Neptune.", ui_));
+    questions_[7]->answers.append(new Answer(
+        "D) Jupiter, Saturne, Uranus, Neptune, Mercure, Vénus, Terre, Mars.", ui_));
+    questions_[7]->answers.append(new Answer(
+        "E) Mars, Vénus, Mercure, Terre, Jupiter, Saturne, Uranus, Neptune.", ui_));
+    questions_[7]->setAllHidden(true);
+
+    questions_.append(new Question ("Dans quel cas l'algorithme de recherche en largeur (BFS) est-il le plus efficace?","/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/images/bfs.jpeg", "C", ui_));
+    questions_[8]->answers.append(new Answer(
+        "A) Pour trouver le chemin le plus long dans un graphe non pondéré.", ui_));
+    questions_[8]->answers.append(new Answer(
+        "B) Pour explorer les chemins dans un graphe pondéré avec des cycles.", ui_));
+    questions_[8]->answers.append(new Answer(
+        "C) Pour trouver le plus court chemin dans un graphe non pondéré.", ui_));
+    questions_[8]->answers.append(new Answer(
+        "D) Pour trier les éléments d'un graphe acyclique.", ui_));
+    questions_[8]->answers.append(new Answer(
+        "E) Pour rechercher un élément spécifique dans une liste triée.", ui_));
+    questions_[8]->setAllHidden(true);
+
+    questions_.append(new Question ("Dans quel cas l'algorithme de recherche en profondeur (DFS) est-il le plus efficace?","/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/images/download.jpeg", "B", ui_));
+    questions_[9]->answers.append(new Answer(
+        "A) Pour trouver le plus court chemin dans un graphe non pondéré.", ui_));
+    questions_[9]->answers.append(new Answer(
+        "B) Pour détecter des cycles dans un graphe.", ui_));
+    questions_[9]->answers.append(new Answer(
+        "C) Pour rechercher un élément spécifique dans une liste triée.", ui_));
+    questions_[9]->answers.append(new Answer(
+        "D) Pour trier les éléments d'un graphe acyclique.", ui_));
+    questions_[9]->answers.append(new Answer(
+        "E) Pour explorer tous les voisins immédiats d'un sommet dans un graphe.", ui_));
+    questions_[9]->setAllHidden(true);
 
 }
 
@@ -106,8 +182,6 @@ void GameLogic::setPushButtonHidden(bool boolean){
 void GameLogic::setAllHidden(bool boolean){
     (*itQuestion)->setAllHidden(boolean);
     setPushButtonHidden(boolean);
-    // qDebug() << "oui";
-
 }
 
 
@@ -147,13 +221,11 @@ void GameLogic::slotNextPushButtonClicked(bool checked){
                 if(radioButton->getLetter() == (*itQuestion)->getTrueAnswer()){
                     if(!previousClicked_){
                         ++goodAnswerCounter_;
-                        // qDebug() << goodAnswerCounter_;
                     }
                 }
                 (*itQuestion)->setAllHidden(true);
                 ++itQuestion;
                 if (itQuestion == questions_.end()){
-                    // qDebug() << "Score of the game: " << getScore();
                     emit endOfGame();
                 } else {
                     (*itQuestion)->setAllHidden(false);

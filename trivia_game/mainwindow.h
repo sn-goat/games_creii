@@ -34,6 +34,10 @@ private slots:
 private:
     Ui::MainWindow *ui;
 
+    QPixmap image;
+
+    QIcon icon;
+
     StartUi* startUi;
     EndUI* endUI;
 

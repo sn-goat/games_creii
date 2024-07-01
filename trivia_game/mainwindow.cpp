@@ -8,7 +8,11 @@ MainWindow::MainWindow(QWidget *parent)
     ui->setupUi(this);
     setFixedSize(900, 700);
     setWindowTitle("Trivia Game");
+    setWindowFilePath("/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/mainwindow.cpp");
 
+    image = QPixmap("/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/images/5184592.png");
+    icon = QIcon(image);
+    setWindowIcon(icon);
 
     startUi = new StartUi(this);
     gameLogic = new GameLogic(this);

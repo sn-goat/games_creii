@@ -892,6 +892,7 @@
  mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/wait.h
  mdp:/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/build/Qt_6_7_0_for_macOS-Debug/trivia_game_autogen/moc_predefs.h
  mdp:/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/endui.h
+ mdp:/Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/QList
  mdp:/Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/QString
  mdp:/Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/q20functional.h
  mdp:/Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/q20memory.h

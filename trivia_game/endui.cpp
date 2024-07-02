@@ -1,4 +1,5 @@
 #include "endui.h"
+#include <QDebug>
 
 EndUI::EndUI(QWidget* parent) :
     QWidget(parent),
@@ -30,8 +31,6 @@ void EndUI::setText(const QString& str){
     text_->setText(score + str);
     text_->setReadOnly(true);
     text_->setGeometry(ui_->width() * 0.50 - 40,ui_->height()* 0.30,  80, 50);
-
-
 }
 
 void EndUI::setAllHidden(bool boolean){
@@ -44,6 +43,7 @@ void EndUI::setConnections(){
     connect(restartPushButton_, SIGNAL (clicked(bool)), this, SLOT (slotRestartPushButtonClicked(bool)));
     connect(quitPushButton_, SIGNAL (clicked(bool)), this, SLOT (quitPushButtonClicked(bool)));
 }
+
 
 void EndUI::slotRestartPushButtonClicked(bool checked){
     if(checked){

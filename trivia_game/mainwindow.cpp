@@ -7,7 +7,7 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
     setFixedSize(900, 700);
-    setWindowTitle("Trivia Game");
+    setWindowTitle("Trivia Time");
     setWindowFilePath("/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/mainwindow.cpp");
 
     image = QPixmap("/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/trivia_game/images/5184592.png");

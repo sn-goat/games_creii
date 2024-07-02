@@ -5,6 +5,7 @@
 #include <QTextEdit>
 #include <QString>
 #include <QPushButton>
+#include <QList>
 
 
 class EndUI : public QWidget

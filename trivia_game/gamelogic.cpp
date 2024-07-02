@@ -192,6 +192,11 @@ const QString& GameLogic::getScore(){
 
 }
 
+const QList<bool> GameLogic::getIsGoodAnswers(){
+    return isGoodAnswers_;
+}
+
+
 void GameLogic::setConnections(){
     connect(nextPushButton_, SIGNAL (clicked(bool)), this, SLOT (slotNextPushButtonClicked(bool)));
     connect(previousPushButton_, SIGNAL (clicked(bool)), this, SLOT (slotPreviousPushButtonClicked(bool)));
@@ -221,8 +226,13 @@ void GameLogic::slotNextPushButtonClicked(bool checked){
                 if(radioButton->getLetter() == (*itQuestion)->getTrueAnswer()){
                     if(!previousClicked_){
                         ++goodAnswerCounter_;
+
                     }
+                    isGoodAnswers_.append(true);
+                } else {
+                    isGoodAnswers_.append(false);
                 }
+
                 (*itQuestion)->setAllHidden(true);
                 ++itQuestion;
                 if (itQuestion == questions_.end()){
@@ -267,6 +277,7 @@ void GameLogic::slotPreviousPushButtonClicked(bool checked){
 }
 
 void GameLogic::restart(){
+    isGoodAnswers_.clear();
     itQuestion = questions_.begin();
     counterRB_ = 0;
     goodAnswerCounter_ = 0;

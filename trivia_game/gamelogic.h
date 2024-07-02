@@ -38,6 +38,8 @@ public:
 
     const QString& getScore();
 
+    const QList<bool> getIsGoodAnswers();
+
 signals:
     void endOfGame();
 
@@ -53,6 +55,8 @@ private:
     QList<Question*> questions_;
 
     QList<Question*>::iterator itQuestion;
+
+    QList<bool> isGoodAnswers_;
 
     QWidget* ui_;
 

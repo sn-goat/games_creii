@@ -1,0 +1,9 @@
+/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/spell_boom/cmake-build-debug/CMakeFiles/spell_boom.dir
+/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/spell_boom/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/spell_boom/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/spell_boom/cmake-build-debug/CMakeFiles/list_install_components.dir
+/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/spell_boom/cmake-build-debug/CMakeFiles/install.dir
+/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/spell_boom/cmake-build-debug/CMakeFiles/install/local.dir
+/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/spell_boom/cmake-build-debug/CMakeFiles/install/strip.dir
+/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/spell_boom/cmake-build-debug/CMakeFiles/spell_boom_autogen_timestamp_deps.dir
+/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/spell_boom/cmake-build-debug/CMakeFiles/spell_boom_autogen.dir

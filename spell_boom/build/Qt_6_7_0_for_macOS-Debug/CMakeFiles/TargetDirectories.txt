@@ -1,0 +1,9 @@
+/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/spell_boom/build/Qt_6_7_0_for_macOS-Debug/CMakeFiles/spell_boom.dir
+/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/spell_boom/build/Qt_6_7_0_for_macOS-Debug/CMakeFiles/edit_cache.dir
+/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/spell_boom/build/Qt_6_7_0_for_macOS-Debug/CMakeFiles/rebuild_cache.dir
+/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/spell_boom/build/Qt_6_7_0_for_macOS-Debug/CMakeFiles/list_install_components.dir
+/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/spell_boom/build/Qt_6_7_0_for_macOS-Debug/CMakeFiles/install.dir
+/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/spell_boom/build/Qt_6_7_0_for_macOS-Debug/CMakeFiles/install/local.dir
+/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/spell_boom/build/Qt_6_7_0_for_macOS-Debug/CMakeFiles/install/strip.dir
+/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/spell_boom/build/Qt_6_7_0_for_macOS-Debug/CMakeFiles/spell_boom_autogen_timestamp_deps.dir
+/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/spell_boom/build/Qt_6_7_0_for_macOS-Debug/CMakeFiles/spell_boom_autogen.dir

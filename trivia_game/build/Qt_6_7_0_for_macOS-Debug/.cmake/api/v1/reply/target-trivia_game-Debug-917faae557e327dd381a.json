@@ -45,7 +45,7 @@
 			{
 				"command" : 3,
 				"file" : 1,
-				"line" : 25,
+				"line" : 27,
 				"parent" : 0
 			},
 			{
@@ -69,19 +69,19 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 75,
+				"line" : 77,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 58,
+				"line" : 60,
 				"parent" : 0
 			},
 			{
 				"command" : 8,
 				"file" : 1,
-				"line" : 13,
+				"line" : 15,
 				"parent" : 0
 			},
 			{
@@ -303,11 +303,11 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 0,
-			"id" : "trivia_game_autogen::@6890427a1f51a3e7e1df"
+			"id" : "trivia_game_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "trivia_game_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+			"backtrace" : 0,
+			"id" : "trivia_game_autogen::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "trivia_game::@6890427a1f51a3e7e1df",

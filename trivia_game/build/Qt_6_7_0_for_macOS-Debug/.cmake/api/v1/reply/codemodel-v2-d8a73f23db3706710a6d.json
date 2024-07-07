@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-84b01881366622046f52.json",
+					"jsonFile" : "directory-.-Debug-171eba212d5ce413a825.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "trivia_game::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-trivia_game-Debug-cbb4af5e37d9bb6bdb2d.json",
+					"jsonFile" : "target-trivia_game-Debug-917faae557e327dd381a.json",
 					"name" : "trivia_game",
 					"projectIndex" : 0
 				},

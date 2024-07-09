@@ -16,6 +16,12 @@ find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
 
 set(PROJECT_SOURCES
         main.cpp
+        CannonItem.cpp
+        CannonItem.h
+        BallItem.cpp
+        BallItem.h
+        Scene.cpp
+        Scene.h
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

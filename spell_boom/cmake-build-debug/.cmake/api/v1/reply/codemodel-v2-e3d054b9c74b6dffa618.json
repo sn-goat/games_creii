@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-495b9654998814065b09.json",
+					"jsonFile" : "directory-.-Debug-7c2f94bcd2e5cbffb287.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "spell_boom::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-spell_boom-Debug-9f4e3b57eb7bce02adba.json",
+					"jsonFile" : "target-spell_boom-Debug-183bc40338915b57133f.json",
 					"name" : "spell_boom",
 					"projectIndex" : 0
 				},

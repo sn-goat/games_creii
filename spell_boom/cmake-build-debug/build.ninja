@@ -89,6 +89,14 @@ build CMakeFiles/spell_boom.dir/Scene.cpp.o: CXX_COMPILER__spell_boom_unscanned_
   OBJECT_DIR = CMakeFiles/spell_boom.dir
   OBJECT_FILE_DIR = CMakeFiles/spell_boom.dir
 
+build CMakeFiles/spell_boom.dir/AsteroidItem.cpp.o: CXX_COMPILER__spell_boom_unscanned_Debug /Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/spell_boom/AsteroidItem.cpp || cmake_object_order_depends_target_spell_boom
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/spell_boom.dir/AsteroidItem.cpp.o.d
+  FLAGS = -g -std=gnu++17 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/spell_boom/cmake-build-debug/spell_boom_autogen/include -isystem /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Headers -iframework /Users/sergilenyouvop/Qt/6.7.0/macos/lib -isystem /Users/sergilenyouvop/Qt/6.7.0/macos/mkspecs/macx-clang -isystem /Users/sergilenyouvop/Qt/6.7.0/macos/include -isystem /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Headers -isystem /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtGui.framework/Headers
+  OBJECT_DIR = CMakeFiles/spell_boom.dir
+  OBJECT_FILE_DIR = CMakeFiles/spell_boom.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target spell_boom
@@ -97,7 +105,7 @@ build CMakeFiles/spell_boom.dir/Scene.cpp.o: CXX_COMPILER__spell_boom_unscanned_
 #############################################
 # Link the executable spell_boom.app/Contents/MacOS/spell_boom
 
-build spell_boom.app/Contents/MacOS/spell_boom: CXX_EXECUTABLE_LINKER__spell_boom_Debug CMakeFiles/spell_boom.dir/spell_boom_autogen/mocs_compilation.cpp.o CMakeFiles/spell_boom.dir/main.cpp.o CMakeFiles/spell_boom.dir/CannonItem.cpp.o CMakeFiles/spell_boom.dir/BallItem.cpp.o CMakeFiles/spell_boom.dir/Scene.cpp.o | /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/QtWidgets /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/QtGui /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/QtCore || spell_boom_autogen spell_boom_autogen_timestamp_deps
+build spell_boom.app/Contents/MacOS/spell_boom: CXX_EXECUTABLE_LINKER__spell_boom_Debug CMakeFiles/spell_boom.dir/spell_boom_autogen/mocs_compilation.cpp.o CMakeFiles/spell_boom.dir/main.cpp.o CMakeFiles/spell_boom.dir/CannonItem.cpp.o CMakeFiles/spell_boom.dir/BallItem.cpp.o CMakeFiles/spell_boom.dir/Scene.cpp.o CMakeFiles/spell_boom.dir/AsteroidItem.cpp.o | /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/QtWidgets /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/QtGui /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/QtCore || spell_boom_autogen spell_boom_autogen_timestamp_deps
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk
   LINK_LIBRARIES = -Wl,-rpath,/Users/sergilenyouvop/Qt/6.7.0/macos/lib  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/QtWidgets  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/QtGui  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/QtCore  -framework IOKit  -framework DiskArbitration  -framework OpenGL  -framework AGL  -framework AppKit  -framework ImageIO  -framework Metal
   LINK_PATH = -F/Users/sergilenyouvop/Qt/6.7.0/macos/lib
@@ -198,7 +206,7 @@ build spell_boom_autogen/timestamp spell_boom_autogen/mocs_compilation.cpp | ${c
 #############################################
 # Phony custom command for CMakeFiles/spell_boom_autogen_timestamp_deps
 
-build CMakeFiles/spell_boom_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/spell_boom_autogen_timestamp_deps: phony /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/QtWidgets /Users/sergilenyouvop/Qt/6.7.0/macos/./libexec/moc /Users/sergilenyouvop/Qt/6.7.0/macos/./libexec/uic /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/QtCore
+build CMakeFiles/spell_boom_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/spell_boom_autogen_timestamp_deps: phony /Users/sergilenyouvop/Qt/6.7.0/macos/./libexec/uic /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/QtWidgets /Users/sergilenyouvop/Qt/6.7.0/macos/./libexec/moc /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/QtCore
 
 
 #############################################

@@ -9,7 +9,8 @@ BallItem::BallItem(qreal x, qreal y, qreal width, qreal height, QGraphicsItem *p
 {
     setBrush(Qt::blue);
     timer = new QTimer(this);
-    connect(timer, &QTimer::timeout, this, &BallItem::move);
+
+    connect(timer, SIGNAL (timeout()) , this, SLOT  (move()));
 }
 
 BallItem::~BallItem()
@@ -24,15 +25,11 @@ void BallItem::startMoving(int interval)
 
 void BallItem::move()
 {
-    if (!scene())
-        return;
-//
-//    QRectF bounds = sceneBoundingRect();
-//    QPointF pos = this->pos();
+    if (!scene()) { return; }
 
-//    if (pos.x() + rect().width() >= bounds.right() || pos.x() <= bounds.left())
-//        dx = -dx;
-//    if (pos.y() + rect().height() >= bounds.bottom() || pos.y() <= bounds.top())
-//        dy = -dy;
+//    qDebug() << y();
+//    if (y()  <= -600 + 140) { dy = -dy; }
+//    if (y() >= 100 + 40) { dy = -dy; }
+
     moveBy(dx, dy);
 }

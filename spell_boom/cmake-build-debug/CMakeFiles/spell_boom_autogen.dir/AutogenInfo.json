@@ -290,6 +290,12 @@
 	"HEADERS" : 
 	[
 		[
+			"/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/spell_boom/AsteroidItem.h",
+			"MU",
+			"EWIEGA46WW/moc_AsteroidItem.cpp",
+			null
+		],
+		[
 			"/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/spell_boom/BallItem.h",
 			"MU",
 			"EWIEGA46WW/moc_BallItem.cpp",
@@ -367,6 +373,11 @@
 	"SETTINGS_FILE" : "/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/spell_boom/cmake-build-debug/CMakeFiles/spell_boom_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/spell_boom/AsteroidItem.cpp",
+			"MU",
+			null
+		],
 		[
 			"/Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/spell_boom/BallItem.cpp",
 			"MU",

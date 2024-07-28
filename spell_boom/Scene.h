@@ -8,12 +8,17 @@
 #include <QtGui>
 #include <QGraphicsScene>
 #include "BallItem.h"
+#include "CannonItem.h"
+#include "AsteroidItem.h"
 
 class Scene : public QGraphicsScene
 {
 public:
     explicit Scene(QGraphicsScene* parent = nullptr);
+    void setCannon();
 
+private:
+    CannonItem* cannon;
 
 protected:
     void keyPressEvent(QKeyEvent * event);

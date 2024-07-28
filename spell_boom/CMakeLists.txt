@@ -22,6 +22,8 @@ set(PROJECT_SOURCES
         BallItem.h
         Scene.cpp
         Scene.h
+        AsteroidItem.cpp
+        AsteroidItem.h
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

@@ -5,7 +5,18 @@
 #include "Scene.h"
 
 
-Scene::Scene(QGraphicsScene* parent) : QGraphicsScene(parent) {}
+Scene::Scene(QGraphicsScene* parent) : QGraphicsScene(parent) {
+    setSceneRect(0, 0, 600 , 600);
+    setBackgroundBrush(Qt::black);
+    setCannon();
+
+    AsteroidItem *asteroid = new AsteroidItem(100,-100);
+    addItem(asteroid);
+    asteroid->startMoving();
+
+
+
+}
 
 void Scene::keyPressEvent(QKeyEvent * event){
     if(!selectedItems().empty()) {
@@ -25,6 +36,7 @@ void Scene::keyPressEvent(QKeyEvent * event){
             } else {
                 selectedItems()[0]->moveBy(-20, 0);
             }
+
         } else if (event->key() == Qt::Key_Space) {
             qDebug() << "The Cannon has fired!";
             QPointF pt = selectedItems()[0]->pos();
@@ -37,4 +49,13 @@ void Scene::keyPressEvent(QKeyEvent * event){
             QGraphicsScene::keyPressEvent(event);
         }
     }
+}
+
+void Scene::setCannon() {
+    cannon = new CannonItem();
+    cannon->setPos(width()/2, height() - 30);
+    cannon->setFlags(QGraphicsItem::ItemIsSelectable | QGraphicsItem::ItemIsMovable);
+    addItem(cannon);
+
+
 }

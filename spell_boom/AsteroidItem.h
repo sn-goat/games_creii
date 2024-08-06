@@ -12,6 +12,7 @@
 #include <QObject>
 #include <QTimer>
 
+
 class AsteroidItem : public QObject, public QGraphicsItem
 {
 Q_OBJECT

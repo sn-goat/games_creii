@@ -5,7 +5,7 @@
 #include "AsteroidItem.h"
 
 AsteroidItem::AsteroidItem(qreal x, qreal y, QGraphicsItem *parent)
-        : QGraphicsItem(parent), dx(0), dy(2.0) {
+        : QGraphicsItem(parent), dx(0), dy(3.5) {
     // Create an irregular asteroid shape
 
     setPos(x, y);
@@ -24,8 +24,9 @@ AsteroidItem::AsteroidItem(qreal x, qreal y, QGraphicsItem *parent)
     connect(timer, SIGNAL (timeout()) , this, SLOT  (move()));
 }
 
+
 QRectF AsteroidItem::boundingRect() const{
-    return QRectF(-50, -55, 105, 100);
+    return QRectF(-55, -60, 105, 110);
 }
 
 void AsteroidItem::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget) {
@@ -47,9 +48,6 @@ void AsteroidItem::move()
 {
     if (!scene()) { return; }
 
-//    qDebug() << y();
-//    if (y()  <= -600 + 140) { dy = -dy; }
-//    if (y() >= 100 + 40) { dy = -dy; }
 
     moveBy(dx, dy);
 }

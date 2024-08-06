@@ -13,23 +13,26 @@ BallItem::BallItem(qreal x, qreal y, qreal width, qreal height, QGraphicsItem *p
     connect(timer, SIGNAL (timeout()) , this, SLOT  (move()));
 }
 
-BallItem::~BallItem()
-{
-    delete timer;
-}
 
 void BallItem::startMoving(int interval)
 {
     timer->start(interval);
 }
 
+
 void BallItem::move()
 {
     if (!scene()) { return; }
 
-//    qDebug() << y();
-//    if (y()  <= -600 + 140) { dy = -dy; }
-//    if (y() >= 100 + 40) { dy = -dy; }
 
     moveBy(dx, dy);
+
+    if(!collidingItems().isEmpty()){
+        for(auto elem : collidingItems()){
+            if(auto asteroid = dynamic_cast<AsteroidItem*>(elem)){
+                qDebug() << "dead :/";
+                scene()->removeItem(asteroid);
+            }
+        }
+    }
 }

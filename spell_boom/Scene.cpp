@@ -10,13 +10,23 @@ Scene::Scene(QGraphicsScene* parent) : QGraphicsScene(parent) {
     setBackgroundBrush(Qt::black);
     setCannon();
 
-    AsteroidItem *asteroid = new AsteroidItem(100,-100);
-    addItem(asteroid);
-    asteroid->startMoving();
+    timer = new QTimer(this);
 
-
+    connect(timer, SIGNAL (timeout()) , this, SLOT  (spawnAsteroids()));
 
 }
+
+void Scene::startSpawningAsteroids(int interval)
+{
+    timer->start(interval);
+}
+
+void Scene::spawnAsteroids(){
+    AsteroidItem* asteroid = new AsteroidItem(QRandomGenerator::global()->bounded(50, 550),-100);
+    addItem(asteroid);
+    asteroid->startMoving();
+}
+
 
 void Scene::keyPressEvent(QKeyEvent * event){
     if(!selectedItems().empty()) {
@@ -40,10 +50,11 @@ void Scene::keyPressEvent(QKeyEvent * event){
         } else if (event->key() == Qt::Key_Space) {
             qDebug() << "The Cannon has fired!";
             QPointF pt = selectedItems()[0]->pos();
-            BallItem *ball = new BallItem(pt.x() - 20, pt.y() - 130, 40, 40);
+            BallItem* ball = new BallItem(pt.x() - 20, pt.y() - 130, 40, 40);
             ball->setFlags(QGraphicsItem::ItemIsSelectable);
             addItem(ball);
             ball->startMoving();
+
 
         } else {
             QGraphicsScene::keyPressEvent(event);

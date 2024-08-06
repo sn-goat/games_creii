@@ -14,6 +14,8 @@ int main(int argc, char *argv[])
     view.setScene(&scene);
     view.setRenderHint(QPainter::Antialiasing);
 
+    scene.startSpawningAsteroids();
+
     view.show();
 
     return a.exec();

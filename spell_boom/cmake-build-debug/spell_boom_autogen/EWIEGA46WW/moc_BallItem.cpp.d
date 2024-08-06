@@ -985,6 +985,7 @@
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/xsaveoptintrin.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/xsavesintrin.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/xtestintrin.h \
+  /Users/sergilenyouvop/Desktop/SUMMER_WORK_24/games_creii/spell_boom/AsteroidItem.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/QDeadlineTimer \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/QEvent \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/QHash \
@@ -993,6 +994,7 @@
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/QMargins \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/QMutex \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/QObject \
+  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/QRandomGenerator \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/QRect \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/QSize \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/QSizeF \
@@ -1002,6 +1004,7 @@
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/QVariant \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/QtCore \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/QtCoreDepends \
+  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/QtMath \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/q20algorithm.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/q20chrono.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/q20functional.h \
@@ -1380,7 +1383,10 @@
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/Headers/qwindow.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QGraphicsEllipseItem \
+  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QGraphicsItem \
+  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QGraphicsScene \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qgraphicsitem.h \
+  /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qgraphicsscene.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgets-config.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsexports.h \
   /Users/sergilenyouvop/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsglobal.h

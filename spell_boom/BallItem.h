@@ -7,18 +7,19 @@
 
 #include <QtGui>
 #include <QObject>
+#include <QGraphicsScene>
 #include <QTimer>
+#include "AsteroidItem.h"
 #include <QGraphicsEllipseItem>
 
 
-class BallItem : public QObject, public QGraphicsEllipseItem
+
+class BallItem :  public QObject, public QGraphicsEllipseItem
 {
 Q_OBJECT
 
 public:
     explicit BallItem(qreal x, qreal y, qreal width, qreal height, QGraphicsItem *parent = nullptr);
-    ~BallItem();
-
     void startMoving(int interval = 16); // Starts the timer with the given interval (default 60 FPS)
 
 private slots:
@@ -28,6 +29,7 @@ private:
     QTimer *timer;
     qreal dx;
     qreal dy;
+
 };
 
 
